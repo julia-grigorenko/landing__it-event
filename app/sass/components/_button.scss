@@ -1,0 +1,23 @@
+.btn {
+  &--arrow {
+    display: block;
+    text-align: center;
+  }
+
+  &__arrow-svg {
+    animation-name: moveInButton;
+    animation-delay: 1.5s;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+
+
+
+
+
+
+
+  
