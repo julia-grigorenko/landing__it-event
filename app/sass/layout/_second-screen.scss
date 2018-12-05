@@ -1,0 +1,30 @@
+.soft-skills {
+  &__photo {
+    max-width: 520px;
+    max-height: 520px;
+    margin-bottom: 2rem;
+    background-image: url('../img/DSC04963.jpg');
+    background-size: cover;
+    background-position: center;
+    height: calc(((100vw - #{$gutter-horizontal}) / 2) - #{$gutter-horizontal});
+
+    &-min {
+      height: 250px;
+      width: 250px;
+      &--2 {
+        background-image: url('../img/DSC04942.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+
+      &--3 {
+        background-image: url('../img/DSC05259.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+  &__defenition {
+    background-color: rgb(116, 180, 63);
+  }
+}

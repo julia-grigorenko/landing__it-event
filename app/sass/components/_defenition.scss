@@ -1,0 +1,33 @@
+.defenition {
+  font-family: 'Roboto';
+  color: $color-white;
+  line-height: 1.55;
+  padding-top: 4.5rem;
+  padding-left: 5rem;
+  padding-right: 4rem;
+  padding-bottom: 3.5rem;
+  font-weight: 300;
+
+  &__header {
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 1px;
+  }
+
+  &__text {
+    font-size: 2rem;
+    padding-top: 2.5rem;
+  }
+
+  &__blockquote {
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-style: italic;
+  }
+
+  &__cite{
+    text-transform: uppercase;
+    display: block;
+  }
+
+}
