@@ -1,0 +1,52 @@
+.price {
+  margin-top: 105px;
+  margin-bottom: 90px;
+
+  &__header {
+    font-size: 92px;
+    color: $color-green;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__text {
+    &--head {
+      margin-bottom: 90px;
+      display: block;
+      text-align: center;
+      font-size: 24px;
+      line-height: 1.5;
+      font-family: 'Roboto',Arial,sans-serif;
+      font-weight: 300;
+      color: $color-black;
+    }
+    &--sub {
+      display: block;
+      width: 440px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: 'Roboto',Arial,sans-serif;
+      font-weight: 300;
+      color: $color-black;
+      font-size: 18px;
+      line-height: 1.55;
+    }
+  }
+  &__list {
+    list-style: square;
+    margin: 0 auto;
+    &-wrapper {
+      display: flex;
+      margin-bottom: 65px;
+    }
+  }
+  &__item {
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    color: $color-black;
+    font-size: 18px;
+    line-height: 1.55;
+    padding-top: 1px;
+  }
+}

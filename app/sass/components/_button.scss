@@ -1,6 +1,31 @@
 .btn {
+  width: 222px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 105px;
+  &--features {
+    color:$color-green;
+    background-color: $color-white;
+  }
+  &--price {
+    color:$color-white;
+    background-color: $color-green;
+  }
+  &--registration {
+    color:$color-green;
+    background-color: $color-white;
+    margin-top: 0px;
+    border: none;
+  }
   &--arrow {
-    display: block;    
+    display: block;
   }
 
   &__arrow-svg {

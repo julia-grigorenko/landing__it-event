@@ -1,0 +1,71 @@
+.curators {
+  &__header {
+    font-size: 42px;
+    line-height: 1.23;
+    color:$color-green;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+  &__img {
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+
+    &--alia {
+      background-image: url(../img/alia.jpg);
+    }
+    &--maria {
+      background-image: url(../img/maria.jpg);
+    }
+    &--svetlana {
+      background-image: url(../img/svetlana.jpg);
+    }
+    &--bulat {
+      background-image: url(../img/bulat.jpg);
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  &__title {
+    font-size: 22px;
+    line-height: 22px;
+    color: $color-green;
+    text-align: center;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    display: block;
+  }
+
+  &__text {
+    max-width: 180px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: $color-black;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    // font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    color: $color-black;
+  }
+
+}
